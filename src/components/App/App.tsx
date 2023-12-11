@@ -1,8 +1,12 @@
 import React from 'react';
+import { Route, Routes } from "react-router-dom";
+import StartPage from "../StartPage/StartPage";
 
 function App() {
   return (
-    <h1>Hello! This is going to be a new web-app called "TaskHub"</h1>
+    <Routes>
+      <Route path="/start" element={<StartPage />} />
+    </Routes>
   );
 }
 
