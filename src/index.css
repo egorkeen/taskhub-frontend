@@ -18,3 +18,4 @@ code {
 @import url(./components/Login/Login.css);
 @import url(./components/Register/Register.css);
 @import url(./components/AuthForm/AuthForm.css);
+@import url(./components/AuthForm/ImageInput/ImageInput.css);

@@ -1,0 +1,21 @@
+.image-input__input {
+  display: none;
+}
+
+.image-input__background {
+  background-color: #C6C6C6;
+  border-radius: 100px;
+  margin: 0 0 50px;
+  padding: 29px;
+}
+
+.image-input__image {
+  width: 47px;
+  height: 47px;
+  cursor: pointer;
+  transition: .1s linear;
+}
+
+.image-input__image:hover {
+  opacity: .8;
+}
