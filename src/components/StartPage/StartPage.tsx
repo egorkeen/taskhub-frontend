@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import start__logo from '../../images/start/start__logo.svg';
+import logo from '../../images/logo.svg';
 
 function StartPage() {
   return (
     <section className="start">
       <div className="start__container">
-        <img src={start__logo} className="start__logo" alt="Логотип"/>
+        <img src={logo} className="start__logo" alt="Логотип"/>
         <h2 className="start__title">Организуйте работу и жизнь!</h2>
         <p className="start__paragraph">Cписок дел, который поможет вам обрести концентрацию, организованность и покой.</p>
         <Link to="/sign-in" className="start__login-button">Войти</Link>

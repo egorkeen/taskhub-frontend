@@ -1,7 +1,8 @@
-import { ChangeEvent, useRef } from "react";
+import { ChangeEvent, useRef, useState } from "react";
 import image_input from '../../../images/auth-form/auth-form__image-input.svg';
 
 function ImageInput () {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -9,7 +10,8 @@ function ImageInput () {
     const selectedFile = event.target.files?.[0];
 
     if (selectedFile) {
-      console.log('Выбранное изображение:', selectedFile);
+      const imageUrl = URL.createObjectURL(selectedFile);
+      setSelectedImage(imageUrl);
     }
   };
   
@@ -30,8 +32,8 @@ function ImageInput () {
       />
       <div className="image-input__background" onClick={openFileInput}>
         <img  
-          src={image_input} 
-          className="image-input__image" 
+          src={selectedImage || image_input} 
+          className={`${selectedImage ? 'image-input__image_selected': 'image-input__image'}`} 
           alt="Выбрать аватар"
         />
       </div>

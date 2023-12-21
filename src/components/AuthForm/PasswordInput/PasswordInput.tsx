@@ -6,7 +6,6 @@ interface IProps {
 
 function PasswordInput (props: IProps) {
   const [isVisible, setVisible] = useState(false);
-  const [password, setPassword] = useState('')
 
   function handlePasswordButtonClick () {
     setVisible(!isVisible);

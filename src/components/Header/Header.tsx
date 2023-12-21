@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
-import header__logo from '../../images/header__logo.svg';
+import logo from '../../images/logo.svg';
+import profileButton from '../../images/header/header__profile-button.svg';
 
 function Header() {
   return (
     <header className="header">
-      <Link to="/">
-        <img src={header__logo} alt="Логотип" />
+      <Link to="/boards">
+        <img className="header__logo" src={logo} alt="Логотип" />
+      </Link>
+      <Link to="/profile">
+        <img src={profileButton} alt="Профиль" className="header__profile-button" />
       </Link>
     </header>
   );

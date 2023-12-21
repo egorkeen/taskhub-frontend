@@ -1,5 +1,5 @@
 import AuthForm from "../AuthForm/AuthForm";
-import logo from "../../images/start/start__logo.svg";
+import logo from "../../images/logo.svg";
 import PasswordInput from "../AuthForm/PasswordInput/PasswordInput";
 import Input from "../AuthForm/Input/Input";
 

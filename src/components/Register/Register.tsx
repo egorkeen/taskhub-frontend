@@ -1,4 +1,4 @@
-import logo from '../../images/start/start__logo.svg';
+import logo from '../../images/logo.svg';
 import AuthForm from '../AuthForm/AuthForm';
 import ImageInput from '../AuthForm/ImageInput/ImageInput';
 import Input from '../AuthForm/Input/Input';
