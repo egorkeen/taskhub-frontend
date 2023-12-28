@@ -25,6 +25,9 @@ code {
 @import url(./components/Header/Header.css);
 @import url(./components/Footer/Footer.css);
 
+/* language selector */
+@import url(./components/LanguageSelector/LanguageSelector.css);
+
 /* boards */
 @import url(./pages/boards/components/boards/boards.css);
 @import url(./pages/boards/components/board-list/board-list.css);

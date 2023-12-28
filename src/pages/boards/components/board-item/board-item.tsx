@@ -21,7 +21,7 @@ function BoardItem ({ title, boardId, background, users, isPrivate }: BoardItemP
         {
           users.length <= 1
             ? <img src={defaultIcon} className="board__default-avatar" alt="Пользователь" />
-            : users.map(user => <img className="board__avatar" src={user.avatar} alt={user.name} />)
+            : users.map(user => <img className="board__avatar" src={user.avatar} alt={user.nickname} />)
         }
       </div>
     </article>
