@@ -1,8 +1,10 @@
-import logo from '../../../../images/logo.svg';
+// components
 import AuthForm from '../auth-form/AuthForm';
-import ImageInput from '../image-input/ImageInput';
 import Input from '../input/Input';
+import ImageInput from '../image-input/ImageInput';
 import PasswordInput from '../password-input/PasswordInput';
+// images
+import logo from '@images/logo.svg';
 
 function SignUp () {
   return (

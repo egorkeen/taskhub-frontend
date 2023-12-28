@@ -1,8 +1,8 @@
-interface IProps {
+interface InputProps {
   placeholder: string
 }
 
-function Input (props: IProps) {
+function Input (props: InputProps) {
   return (
     <div className="auth-form__input-wrapper">
       <input type="text" className="auth-form__input" placeholder={props.placeholder} />

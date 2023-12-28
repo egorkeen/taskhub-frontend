@@ -1,6 +1,7 @@
+// components
 import BoardItem from "../board-item/board-item";
 // board data
-import boardsData from '../../../../utils/boardsData.json';
+import boardsData from '@utils/boardsData.json';
 
 function BoardList () {
   return (

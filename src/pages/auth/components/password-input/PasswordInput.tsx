@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-interface IProps {
+interface PasswordInputProps {
   placeholder: string,
 }
 
-function PasswordInput (props: IProps) {
+function PasswordInput (props: PasswordInputProps) {
   const [isVisible, setVisible] = useState(false);
 
   function handlePasswordButtonClick () {

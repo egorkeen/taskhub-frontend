@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 
-interface IProps {
+interface AuthFormProps {
   children: ReactNode,
   title: string,
   submitButtonText: string,
@@ -10,7 +10,7 @@ interface IProps {
   linkText: string,
 }
 
-function AuthForm(props: IProps) {
+function AuthForm(props: AuthFormProps) {
   return (
     <form className="auth-form">
       <h2 className="auth-form__title">{props.title}</h2>

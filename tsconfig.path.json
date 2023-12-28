@@ -14,8 +14,8 @@
       "@store/*": [
         "store/*"
       ],
-      "@types/*": [
-        "types/*"
+      "@custom-types/*": [
+        "custom-types/*"
       ],
       "@utils/*": [
         "utils/*"

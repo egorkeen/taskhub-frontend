@@ -1,11 +1,11 @@
 import { Navigate } from "react-router-dom";
 import { FC } from "react";
 
-interface IProps {
+interface ProtectedRouteProps {
   element: FC
 }
 
-function ProtectedRoute ({ element: Component, ...props }: IProps) {
+function ProtectedRoute ({ element: Component, ...props }: ProtectedRouteProps) {
   const user = {
     isAuthorized: true,
   }

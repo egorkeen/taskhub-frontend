@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import logo from '../../images/logo.svg';
-import profileButton from '../../images/header/header__profile-button.svg';
+// images
+import logo from '@images/logo.svg';
+import profileButton from '@images/header/header__profile-button.svg';
 
 function Header() {
   return (

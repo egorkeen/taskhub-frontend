@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
-import defalutIcon from '../../../../images/board/board__default-avatar.svg';
-import { User } from '../../../../types/User';
+// images
+import defaultIcon from '@images/board/board__default-avatar.svg';
+// types
+import User from '@custom-types/User';
 
 interface BoardItemProps {
   title: string,
@@ -18,7 +20,7 @@ function BoardItem ({ title, boardId, background, users, isPrivate }: BoardItemP
       <div className="board__avatar-container">
         {
           users.length <= 1
-            ? <img src={defalutIcon} className="board__default-avatar" alt="Пользователь" />
+            ? <img src={defaultIcon} className="board__default-avatar" alt="Пользователь" />
             : users.map(user => <img className="board__avatar" src={user.avatar} alt={user.name} />)
         }
       </div>

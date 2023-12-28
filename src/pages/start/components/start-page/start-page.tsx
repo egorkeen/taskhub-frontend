@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+// images
 import logo from '@images/logo.svg';
 
 function StartPage() {

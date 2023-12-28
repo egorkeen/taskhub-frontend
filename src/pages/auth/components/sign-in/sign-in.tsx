@@ -1,9 +1,11 @@
+// components
 import AuthForm from "../auth-form/AuthForm";
-import logo from '@images/logo.svg';
-import PasswordInput from "../password-input/PasswordInput";
 import Input from "../input/Input";
+import PasswordInput from "../password-input/PasswordInput";
+// images
+import logo from '@images/logo.svg';
 
-function Login() {
+function SignIn() {
   return (
     <section className="login">
       <img className="login__logo" src={logo} alt="Логотип"/>
@@ -23,4 +25,4 @@ function Login() {
   );
 };
 
-export default Login;
+export default SignIn;

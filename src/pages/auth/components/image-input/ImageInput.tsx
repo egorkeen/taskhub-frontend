@@ -1,5 +1,5 @@
 import { ChangeEvent, useRef, useState } from "react";
-import image_input from '../../../../images/auth-form/auth-form__image-input.svg';
+import image_input from '@images/auth-form/auth-form__image-input.svg';
 
 function ImageInput () {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
