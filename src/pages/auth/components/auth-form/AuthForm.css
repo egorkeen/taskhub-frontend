@@ -55,7 +55,7 @@
   border: none;
   background-color: rgba(255, 0, 0, 0);
   transition: .1s linear;
-  background-image: url(../../images/auth-form/auth-form__password-button_visible.svg);
+  background-image: url(../../../../images/auth-form/auth-form__password-button_visible.svg);
 }
 
 .auth-form__password-button_hidden {
@@ -67,7 +67,7 @@
   border: none;
   background-color: rgba(255, 0, 0, 0);
   transition: .1s linear;
-  background-image: url(../../images/auth-form/auth-form__password-button_hidden.svg);
+  background-image: url(../../../../images/auth-form/auth-form__password-button_hidden.svg);
 }
 
 .auth-form__submit-button {

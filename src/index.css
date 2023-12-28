@@ -14,10 +14,19 @@ code {
     monospace;
 }
 
-@import url(./components/StartPage/StartPage.css);
-@import url(./components/Login/Login.css);
-@import url(./components/Register/Register.css);
-@import url(./components/AuthForm/AuthForm.css);
-@import url(./components/AuthForm/ImageInput/ImageInput.css);
+/* start and auth */
+@import url(./pages/start/components/start-page/start-page.css);
+@import url(./pages/auth/components/sign-in/sign-in.css);
+@import url(./pages/auth/components/sign-up/sign-up.css);
+@import url(pages/auth/components/auth-form/AuthForm.css);
+@import url(pages/auth/components/image-input/ImageInput.css);
 
+/* header and footer */
 @import url(./components/Header/Header.css);
+@import url(./components/Footer/Footer.css);
+
+/* boards */
+@import url(./pages/boards/components/boards/boards.css);
+@import url(./pages/boards/components/board-list/board-list.css);
+@import url(./pages/boards/components/board-item/board-item.css);
+@import url(./pages/boards/components/add-board-button/add-board-button.css);

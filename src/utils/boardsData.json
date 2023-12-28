@@ -1,0 +1,67 @@
+{
+  "boards": [
+
+    {
+      "boardId": 1,
+      "title": "Майнкрафт",
+      "background": "https://wp-s.ru/wallpapers/7/6/309940349042291/geroj-minecraft-stalkivaet-vraga-v-propast.jpg",
+      "users": [
+        {
+          "name": "Мэттью МакКонахи",
+          "email": "user1@example.com",
+          "avatar": "https://www.film.ru/sites/default/files/filefield_paths/3_48.jpeg"
+        },
+        {
+          "name": "Морган Фримен",
+          "email": "user2@example.com",
+          "avatar": "https://rat-felt.ru/wp-content/uploads/2020/01/2ccc1aa5769ec0232a8b581284171f71.jpg"
+        },
+        {
+          "name": "Дженнифер Лоуренс",
+          "email": "user3@example.com",
+          "avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663324836_8-mykaleidoscope-ru-p-dzhennifer-lourens-vkontakte-8.jpg"
+        },
+        {
+          "name": "Кузя из универа",
+          "email": "user4@example.com",
+          "avatar": "https://interesnyefakty.org/wp-content/uploads/vitalij-gogunskij.jpg"
+        }
+      ],
+      "isPrivate": false
+    },
+
+    {
+      "boardId": 2,
+      "title": "Доска 2",
+      "background": "#3E007C",
+      "users": [
+        {
+          "name": "Михаил",
+          "email": "user4@example.com",
+          "avatar": "https://avatars.dzeninfra.ru/get-zen_doc/142473/pub_5ba66e58e8f7a600ac9fae7a_5ba673298ad01000a9323415/scale_1200"
+        },
+        {
+          "name": "Павел",
+          "email": "user5@example.com",
+          "avatar": "http://russian7.ru/wp-content/uploads/2022/04/Pavel-Durov.jpg"
+        }
+      ],
+      "isPrivate": false
+    },
+
+    {
+      "boardId": 3,
+      "title": "Доска 3",
+      "background": "#3E007C",
+      "users": [
+        {
+          "name": "Пользователь 6",
+          "email": "user6@example.com",
+          "avatar": "https://example.com/photo6.jpg"
+        }
+      ],
+      "isPrivate": true
+    }
+    
+  ]
+}

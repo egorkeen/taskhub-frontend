@@ -21,7 +21,7 @@ function PasswordInput (props: IProps) {
     </input>
     <button
         type="button" 
-        className={`auth-form__paswword-button ${isVisible ? "auth-form__password-button_visible" : 'auth-form__password-button_hidden'}`}
+        className={`auth-form__password-button ${isVisible ? "auth-form__password-button_visible" : 'auth-form__password-button_hidden'}`}
         onClick={handlePasswordButtonClick} 
       />
     </div>

@@ -1,7 +1,7 @@
-import AuthForm from "../AuthForm/AuthForm";
+import AuthForm from "../auth-form/AuthForm";
 import logo from "../../images/logo.svg";
-import PasswordInput from "../AuthForm/PasswordInput/PasswordInput";
-import Input from "../AuthForm/Input/Input";
+import PasswordInput from "../password-input/PasswordInput";
+import Input from "../input/Input";
 
 function Login() {
   return (

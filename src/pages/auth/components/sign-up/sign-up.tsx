@@ -1,10 +1,10 @@
-import logo from '../../images/logo.svg';
-import AuthForm from '../AuthForm/AuthForm';
-import ImageInput from '../AuthForm/ImageInput/ImageInput';
-import Input from '../AuthForm/Input/Input';
-import PasswordInput from '../AuthForm/PasswordInput/PasswordInput';
+import logo from '../../../../images/logo.svg';
+import AuthForm from '../auth-form/AuthForm';
+import ImageInput from '../image-input/ImageInput';
+import Input from '../input/Input';
+import PasswordInput from '../password-input/PasswordInput';
 
-function Register () {
+function SignUp () {
   return (
     <section className="register">
       <img className="register__logo" src={logo} alt="Логотип"/>
@@ -26,4 +26,4 @@ function Register () {
   );
 };
 
-export default Register;
+export default SignUp;
