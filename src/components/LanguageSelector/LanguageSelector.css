@@ -1,0 +1,20 @@
+.lang-selector {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.lang-selector__select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Дополнительные стили для улучшения внешнего вида, например, при наведении */
+.lang-selector__select:hover {
+    background-color: #f8f8f8;
+}
