@@ -1,5 +1,6 @@
 import User from "@custom-types/User";
-import defaultIcon from "@images/board/board__default-avatar.svg";
+import BoardDefaultAvatar from "@pages/boards/components/board-default-avatar/board-default-avatar";
+import BoardAvatar from "@pages/boards/components/board-avatar/board-avatar";
 
 interface AvatarContainerProps {
   users: User[]
@@ -9,20 +10,24 @@ function BoardAvatarContainer ({ users }: AvatarContainerProps) {
   return (
     <div className="board__avatar-container">
       {
-        users.length <= 1
-          ? <img src={defaultIcon} className="board__default-avatar" alt="Пользователь" />
-          : users.map((user, index) => {
-            if (index + 1 <= 2) {
-              return <img className={`board__avatar board__avatar_${index + 1}`} src={user.avatar} alt={user.nickname} />
-            } else if (index + 1 === 3) {
-              return (
-                <div className="board__image-wrapper">
-                  <span className="board__users-count">+{users.length - (index + 1)}</span>
-                  <img className="board__avatar board__avatar_3" src={user.avatar} alt={user.nickname} />
-                </div>
-              )
-            }
-          })
+        users.length === 1
+          ? <BoardDefaultAvatar />
+          : users.length === 3
+              ? users.slice(0, 3).map((user, index) => {
+                return <BoardAvatar order={index + 1} avatar={user.avatar} nickname={user.nickname} isBlurred={false} />
+                })
+              : users.map((user, index) => {
+                if (index + 1 <= 2) {
+                  return <BoardAvatar order={index + 1} avatar={user.avatar} nickname={user.nickname} isBlurred={false} />
+                } else if (index + 1 === 3) {
+                  return (
+                    <div className="board__image-wrapper">
+                      <span className="board__users-count">+{users.length - (index + 1)}</span>
+                      <BoardAvatar order={3} avatar={user.avatar} nickname={user.nickname} isBlurred={true} />
+                    </div>
+                  )
+                }
+                })
       }
     </div>
   )

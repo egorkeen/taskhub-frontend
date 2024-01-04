@@ -12,16 +12,17 @@ interface BoardItemProps {
 
 function BoardItem ({ title, boardId, background, users }: BoardItemProps) {
   return (
-    <article className="board" style={
-        background.startsWith('#')
-          ? { background }
-          : { backgroundImage: `url(${background})` }
-    }>
+    <article className="board">
       <div className="board__container">
         <h3 className="board__title">{title}</h3>
         <Link to={`/boards/${boardId}/`} className="board__link" />
       </div>
       <BoardAvatarContainer users={users} />
+      <div className="board__background" style={
+        background.startsWith('#')
+          ? { background }
+          : { backgroundImage: `url(${background})`, filter: `blur(6px)` }
+      } />
     </article>
   )
 }
