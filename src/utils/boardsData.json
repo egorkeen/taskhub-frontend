@@ -26,8 +26,7 @@
           "email": "user4@example.com",
           "avatar": "https://interesnyefakty.org/wp-content/uploads/vitalij-gogunskij.jpg"
         }
-      ],
-      "isPrivate": false
+      ]
     },
 
     {
@@ -45,8 +44,7 @@
           "email": "user5@example.com",
           "avatar": "http://russian7.ru/wp-content/uploads/2022/04/Pavel-Durov.jpg"
         }
-      ],
-      "isPrivate": false
+      ]
     },
 
     {
@@ -59,8 +57,7 @@
           "email": "user6@example.com",
           "avatar": "https://example.com/photo6.jpg"
         }
-      ],
-      "isPrivate": true
+      ]
     }
     
   ]

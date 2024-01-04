@@ -13,7 +13,6 @@ function BoardList () {
           title={board.title}
           background={board.background}
           users={board.users}
-          isPrivate={board.isPrivate}
         />
       ))}
     </section>
