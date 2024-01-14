@@ -6,7 +6,7 @@ import { usersReducer } from "@store/slices/users/users.slice";
 import { popupsReducer } from "@store/slices/popups/popups.slice";
 
 const rootReducer = combineReducers({
-  language: languageReducer,
+  language: languageReducer, // заменить языки на settingsReducer с языками, темой и т.п.
   boards: boardsReducer,
   users: usersReducer,
   popups: popupsReducer,

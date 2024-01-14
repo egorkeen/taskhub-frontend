@@ -18,10 +18,11 @@ function BoardItem ({ title, boardId, background, users }: BoardItemProps) {
         <Link to={`/boards/${boardId}/`} className="board__link" />
       </div>
       <BoardAvatarContainer users={users} />
+      {/* переделать */}
       <div className="board__background" style={
         background.startsWith('#')
           ? { background }
-          : { backgroundImage: `url(${background})`, filter: `blur(6px)` }
+          : { background: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(${background}), lightgray 50%` }
       } />
     </article>
   )
