@@ -20,17 +20,18 @@ function BoardItem ({ title, boardId, backgroundImage, backgroundColor, users }:
           <Link to={`/boards/${boardId}/`} className="board__link" />
         </div>
         <BoardAvatarContainer users={users} />
-        {/* Проверяем backgroundImage на undefined или null перед применением */}
-        {backgroundImage !== undefined && backgroundImage !== null && (
+        {/* Проверяем backgroundImage на null перед применением */}
+        {backgroundImage !== null && (
           <div className="board__background" style={{
             background: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), lightgray 50%`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
             backgroundImage: `url(${backgroundImage})`,
           }} />
         )}
-        {/* Или просто применяем backgroundColor, если backgroundImage не определено или равно null */}
-        {(backgroundImage === undefined || backgroundImage === null) && (
+        {/* Или просто применяем backgroundColor */}
+        {(backgroundImage === null) && (
           <div className="board__background" style={{ backgroundColor }} />
         )}
       </article>

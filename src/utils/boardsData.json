@@ -27,14 +27,25 @@
           "email": "user4@example.com",
           "avatar": "https://interesnyefakty.org/wp-content/uploads/vitalij-gogunskij.jpg"
         }
+      ],
+      "sections": [
+        {
+          "title": "Ферма"
+        },
+        {
+          "title": "Шахта"
+        },
+        {
+          "title": "Мир энда"
+        }
       ]
     },
 
     {
       "boardId": 2,
-      "title": "Доска 2",
+      "title": "Telegram",
       "backgroundColor": "#3E007C",
-      "backgroundImage": null,
+      "backgroundImage": "https://besthqwallpapers.com/Uploads/20-2-2022/189532/telegram-dark-blue-logo-4k-dark-blue-neon-lights-creative-dark-blue-abstract-background.jpg",
       "users": [
         {
           "nickname": "Михаил",
@@ -46,19 +57,41 @@
           "email": "user5@example.com",
           "avatar": "http://russian7.ru/wp-content/uploads/2022/04/Pavel-Durov.jpg"
         }
+      ],
+      "sections": [
+        {
+          "title": "Клиенты"
+        },
+        {
+          "title": "Каналы"
+        },
+        {
+          "title": "Друзья"
+        }
       ]
     },
 
     {
       "boardId": 3,
-      "title": "Доска 3",
+      "title": "Программирование",
       "backgroundColor": "#3E007C",
-      "backgroundImage": null,
+      "backgroundImage": "https://celes.club/uploads/posts/2022-11/1667370066_5-celes-club-p-oboi-na-telefon-programmirovanie-instagram-7.jpg",
       "users": [
         {
           "nickname": "Пользователь 6",
           "email": "user6@example.com",
           "avatar": "https://example.com/photo6.jpg"
+        }
+      ],
+      "sections": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "TaskHub"
+        },
+        {
+          "title": "Алгоритмы и структуры данных"
         }
       ]
     }
