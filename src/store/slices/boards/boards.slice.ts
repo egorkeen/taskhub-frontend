@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import BoardsState from "@custom-types/BoardsState";
+import BoardsState from "@custom-types/states/BoardsState";
 
 const initialState: BoardsState = {
   list: [],

@@ -1,8 +1,8 @@
 // components
-import AuthForm from '../auth-form/AuthForm';
-import Input from '../input/Input';
-import ImageInput from '../image-input/ImageInput';
-import PasswordInput from '../password-input/PasswordInput';
+import AuthForm from '../auth-form/auth-form';
+import Input from '../input/input';
+import ImageInput from '../image-input/image-input';
+import PasswordInput from '../password-input/password-input';
 // images
 import logo from '@images/logo.svg';
 

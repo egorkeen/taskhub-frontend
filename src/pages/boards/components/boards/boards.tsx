@@ -1,6 +1,6 @@
 // components
-import Header from "@components/Header/Header";
-import Footer from "@components/Footer/Footer";
+import Header from "@components/header/header";
+import Footer from "@components/footer/footer";
 import BoardList from "../board-list/board-list";
 import AddBoardButton from "../add-board-button/add-board-button";
 

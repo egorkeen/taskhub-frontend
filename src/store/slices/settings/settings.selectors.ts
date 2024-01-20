@@ -1,3 +1,3 @@
-import {RootState} from "@store/store";
+import { RootState } from "@store/store";
 
-export const selectCurrentLanguage = (state: RootState) => state.language?.language;
+export const selectCurrentLanguage = (state: RootState) => state.settings.language;

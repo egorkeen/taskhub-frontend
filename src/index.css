@@ -18,15 +18,15 @@ code {
 @import url(./pages/start/components/start-page/start-page.css);
 @import url(./pages/auth/components/sign-in/sign-in.css);
 @import url(./pages/auth/components/sign-up/sign-up.css);
-@import url(pages/auth/components/auth-form/AuthForm.css);
-@import url(pages/auth/components/image-input/ImageInput.css);
+@import url(./pages/auth/components/auth-form/auth-form.css);
+@import url(./pages/auth/components/image-input/image-input.css);
 
 /* header and footer */
-@import url(./components/Header/Header.css);
-@import url(./components/Footer/Footer.css);
+@import url(./components/header/header.css);
+@import url(./components/footer/footer.css);
 
 /* language selector */
-@import url(./components/LanguageSelector/LanguageSelector.css);
+@import url(./components/language-selector/language-selector.css);
 
 /* boards */
 @import url(./pages/boards/components/boards/boards.css);

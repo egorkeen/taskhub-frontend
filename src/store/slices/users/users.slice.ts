@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import UsersState from "@custom-types/UsersState";
+import UsersState from "@custom-types/states/UsersState";
 
 const initialState: UsersState = {
   currentUser: { nickname: "nickname", email: "some_email@email.com", avatar: "avatar" },

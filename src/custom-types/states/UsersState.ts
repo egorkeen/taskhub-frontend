@@ -1,4 +1,4 @@
-import User from "@custom-types/user/User";
+import User from "@custom-types/models/User";
 
 export default interface UsersState {
   currentUser: User,

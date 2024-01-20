@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 // images
 import logo from '@images/logo.svg';
 // components
-import LanguageSelector from "@components/LanguageSelector/LanguageSelector";
+import LanguageSelector from "@components/language-selector/language-selector";
 
 function StartPage() {
   return (

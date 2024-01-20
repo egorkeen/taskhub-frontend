@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // types
-import User from '@custom-types/User';
+import User from '@custom-types/models/User';
 import BoardAvatarContainer from "@pages/boards/components/board-avatar-container/board-avatar-container";
 
 interface BoardItemProps {

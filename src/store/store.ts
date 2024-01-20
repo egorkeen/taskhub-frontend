@@ -1,12 +1,12 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 // reducers
-import { languageReducer } from "@store/slices/languages/languages.slice";
+import { settingsReducer } from "@store/slices/settings/settings.slice";
 import { boardsReducer } from "@store/slices/boards/boards.slice";
 import { usersReducer } from "@store/slices/users/users.slice";
 import { popupsReducer } from "@store/slices/popups/popups.slice";
 
 const rootReducer = combineReducers({
-  language: languageReducer, // заменить языки на settingsReducer с языками, темой и т.п.
+  settings: settingsReducer, // заменить языки на settingsReducer с языками, темой и т.п.
   boards: boardsReducer,
   users: usersReducer,
   popups: popupsReducer,

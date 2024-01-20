@@ -1,4 +1,4 @@
-import User from "@custom-types/User";
+import User from "@custom-types/models/User";
 import BoardDefaultAvatar from "@pages/boards/components/board-default-avatar/board-default-avatar";
 import BoardAvatar from "@pages/boards/components/board-avatar/board-avatar";
 
