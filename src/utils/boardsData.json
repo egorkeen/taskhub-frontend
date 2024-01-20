@@ -1,0 +1,100 @@
+{
+  "boards": [
+
+    {
+      "boardId": 1,
+      "title": "Майнкрафт",
+      "backgroundImage": "https://wp-s.ru/wallpapers/7/6/309940349042291/geroj-minecraft-stalkivaet-vraga-v-propast.jpg",
+      "backgroundColor": "#3E007C",
+      "users": [
+        {
+          "nickname": "Мэттью МакКонахи",
+          "email": "user1@example.com",
+          "avatar": "https://www.film.ru/sites/default/files/filefield_paths/3_48.jpeg"
+        },
+        {
+          "nickname": "Морган Фримен",
+          "email": "user2@example.com",
+          "avatar": "https://rat-felt.ru/wp-content/uploads/2020/01/2ccc1aa5769ec0232a8b581284171f71.jpg"
+        },
+        {
+          "nickname": "Дженнифер Лоуренс",
+          "email": "user3@example.com",
+          "avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663324836_8-mykaleidoscope-ru-p-dzhennifer-lourens-vkontakte-8.jpg"
+        },
+        {
+          "nickname": "Кузя из универа",
+          "email": "user4@example.com",
+          "avatar": "https://interesnyefakty.org/wp-content/uploads/vitalij-gogunskij.jpg"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Ферма"
+        },
+        {
+          "title": "Шахта"
+        },
+        {
+          "title": "Мир энда"
+        }
+      ]
+    },
+
+    {
+      "boardId": 2,
+      "title": "Telegram",
+      "backgroundColor": "#3E007C",
+      "backgroundImage": "https://besthqwallpapers.com/Uploads/20-2-2022/189532/telegram-dark-blue-logo-4k-dark-blue-neon-lights-creative-dark-blue-abstract-background.jpg",
+      "users": [
+        {
+          "nickname": "Михаил",
+          "email": "user4@example.com",
+          "avatar": "https://avatars.dzeninfra.ru/get-zen_doc/142473/pub_5ba66e58e8f7a600ac9fae7a_5ba673298ad01000a9323415/scale_1200"
+        },
+        {
+          "nickname": "Павел",
+          "email": "user5@example.com",
+          "avatar": "http://russian7.ru/wp-content/uploads/2022/04/Pavel-Durov.jpg"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Клиенты"
+        },
+        {
+          "title": "Каналы"
+        },
+        {
+          "title": "Друзья"
+        }
+      ]
+    },
+
+    {
+      "boardId": 3,
+      "title": "Программирование",
+      "backgroundColor": "#3E007C",
+      "backgroundImage": "https://celes.club/uploads/posts/2022-11/1667370066_5-celes-club-p-oboi-na-telefon-programmirovanie-instagram-7.jpg",
+      "users": [
+        {
+          "nickname": "Пользователь 6",
+          "email": "user6@example.com",
+          "avatar": "https://example.com/photo6.jpg"
+        }
+      ],
+      "sections": [
+        {
+          "title": "JavaScript"
+        },
+        {
+          "title": "TaskHub"
+        },
+        {
+          "title": "Алгоритмы и структуры данных"
+        }
+      ]
+    }
+    
+  ]
+}
