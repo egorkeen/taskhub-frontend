@@ -11,7 +11,8 @@ function BoardList () {
           key={board.boardId}
           boardId={board.boardId}
           title={board.title}
-          background={board.background}
+          backgroundImage={board.backgroundImage}
+          backgroundColor={board.backgroundColor}
           users={board.users}
         />
       ))}

@@ -4,7 +4,8 @@
     {
       "boardId": 1,
       "title": "Майнкрафт",
-      "background": "https://wp-s.ru/wallpapers/7/6/309940349042291/geroj-minecraft-stalkivaet-vraga-v-propast.jpg",
+      "backgroundImage": "https://wp-s.ru/wallpapers/7/6/309940349042291/geroj-minecraft-stalkivaet-vraga-v-propast.jpg",
+      "backgroundColor": "#3E007C",
       "users": [
         {
           "nickname": "Мэттью МакКонахи",
@@ -32,7 +33,8 @@
     {
       "boardId": 2,
       "title": "Доска 2",
-      "background": "#3E007C",
+      "backgroundColor": "#3E007C",
+      "backgroundImage": null,
       "users": [
         {
           "nickname": "Михаил",
@@ -50,7 +52,8 @@
     {
       "boardId": 3,
       "title": "Доска 3",
-      "background": "#3E007C",
+      "backgroundColor": "#3E007C",
+      "backgroundImage": null,
       "users": [
         {
           "nickname": "Пользователь 6",

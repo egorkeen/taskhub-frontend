@@ -6,25 +6,35 @@ import BoardAvatarContainer from "@pages/boards/components/board-avatar-containe
 interface BoardItemProps {
   title: string,
   boardId: number,
-  background: string,
+  backgroundImage: string | null,
+  backgroundColor: string,
   users: User[],
 }
 
-function BoardItem ({ title, boardId, background, users }: BoardItemProps) {
+function BoardItem ({ title, boardId, backgroundImage, backgroundColor, users }: BoardItemProps) {
   return (
-    <article className="board">
-      <div className="board__container">
-        <h3 className="board__title">{title}</h3>
-        <Link to={`/boards/${boardId}/`} className="board__link" />
-      </div>
-      <BoardAvatarContainer users={users} />
-      {/* переделать */}
-      <div className="board__background" style={
-        background.startsWith('#')
-          ? { background }
-          : { background: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(${background}), lightgray 50%` }
-      } />
-    </article>
+    <Link to={`/boards/${boardId}/`} className="board__wrapper">
+      <article className="board">
+        <div className="board__container">
+          <h3 className="board__title">{title}</h3>
+          <Link to={`/boards/${boardId}/`} className="board__link" />
+        </div>
+        <BoardAvatarContainer users={users} />
+        {/* Проверяем backgroundImage на undefined или null перед применением */}
+        {backgroundImage !== undefined && backgroundImage !== null && (
+          <div className="board__background" style={{
+            background: `linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), lightgray 50%`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundImage: `url(${backgroundImage})`,
+          }} />
+        )}
+        {/* Или просто применяем backgroundColor, если backgroundImage не определено или равно null */}
+        {(backgroundImage === undefined || backgroundImage === null) && (
+          <div className="board__background" style={{ backgroundColor }} />
+        )}
+      </article>
+    </Link>
   )
 }
 
