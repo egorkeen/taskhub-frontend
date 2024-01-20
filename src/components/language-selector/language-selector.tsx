@@ -2,9 +2,9 @@
 import { useSelector } from "react-redux";
 import { useAppDispatch } from "@store/hooks/useAppDispatch";
 // selector
-import { selectCurrentLanguage } from "@store/slices/languages/languages.selectors";
+import { selectCurrentLanguage } from "@store/slices/settings/settings.selectors";
 // action
-import { setLanguage } from "@store/slices/languages/languages.slice";
+import { setLanguage } from "@store/slices/settings/settings.slice";
 
 function LanguageSelector () {
   const currentLanguage = useSelector(selectCurrentLanguage);
